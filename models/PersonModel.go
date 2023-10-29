@@ -9,9 +9,9 @@ import (
 type Person struct {
 	gorm.Model
 	ID        uint
-	Name      string
 	Address   string
 	Phone     uint
+	Name      string
 	CreatedAt time.Time
 	UpdatedAt time.Time
 }
